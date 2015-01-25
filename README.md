@@ -11,7 +11,7 @@ The script does read the Samsung data from the working directory provided that t
 The script then in steps:
 
 1. Merges the training and the test sets to create one data set.
-2. Extracts only the measurements on the mean and standard deviation for each measurement. 
+2. Extracts only the measurements on the mean and standard deviation for each measurement. (I have included from the orginal set of measurements only those that had a variable name finishing with "mean()" or "std()". Other occurances within the name e.g "Mean" were not included in the selection.)
 3. Uses descriptive activity names to name the activities in the data set
-4. Appropriately labels the data set with descriptive variable names. (The outcome is the total dataset.)
-5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject. (The outcome is the average dataset.)
+4. Appropriately labels the data set with descriptive variable names. (The outcome is the "total" dataset.)
+5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject. (The outcome is the "average" dataset.)
