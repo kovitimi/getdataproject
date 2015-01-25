@@ -15,3 +15,5 @@ The script then in steps:
 3. Uses descriptive activity names to name the activities in the data set
 4. Appropriately labels the data set with descriptive variable names. (The outcome is the "total" dataset.)
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject. (The outcome is the "average" dataset.)
+
+The getdataproject repository includes also a Codebook with further description of the variables. 
