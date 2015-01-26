@@ -98,7 +98,7 @@ The final data uses the same notations as the original dataset with respect to t
 
 From the large set of original features a subset was first created including from the original series of variables only the mean and the standard deviation of each signal, denoted by "mean()" and "std()" in the naming convention of each variable.
 
-Later the dataset was aggregated, meaning the average of activity and each subject for all the variables respectively. 
+Later the dataset was aggregated, meaning the average of activity and each subject for all the variables was taken respectively. Now under the original original names of the variables these averages appear in the final dataset.
 
 (The readme.md file of this repositry repeats the steps of data manipulations in more details.)
 
